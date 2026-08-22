@@ -14,3 +14,39 @@ CREATE TABLE users (
     ON UPDATE CURRENT_TIMESTAMP
 );
 //Here i have created the database for storing the details of the users 
+
+CREATE TABLE leave_requests (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+
+    employee_id INT NOT NULL,
+
+    leave_type_id INT NOT NULL,
+
+    start_date DATE NOT NULL,
+
+    end_date DATE NOT NULL,
+
+    reason TEXT,
+
+    status ENUM(
+        'PENDING',
+        'APPROVED',
+        'REJECTED'
+    ) DEFAULT 'PENDING',
+
+    approved_by INT,
+
+    comments TEXT,
+
+    applied_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+    FOREIGN KEY(employee_id)
+    REFERENCES employees(id),
+
+    FOREIGN KEY(leave_type_id)
+    REFERENCES leave_types(id),
+
+    FOREIGN KEY(approved_by)
+    REFERENCES users(id)
+);
+//To store the leave request
