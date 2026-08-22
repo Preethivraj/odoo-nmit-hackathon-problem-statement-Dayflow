@@ -402,5 +402,202 @@
         }
     </style>
 </head>
-
 <body>
+<!-- ================= SIDEBAR ================= -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <span>EMP</span> Portal
+        </div>
+
+        <div class="menu">
+            <a href="#" class="active">🏠 Dashboard</a>
+            <a href="#">👤 Profile</a>
+            <a href="#">📅 Attendance</a>
+            <a href="#">📝 Leave Requests</a>
+            <a href="#">🔔 Notifications</a>
+            <a href="#">⚙️ Settings</a>
+            <a href="#">🚪 Logout</a>
+        </div>
+
+    </aside>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="main">
+
+        <!-- Header -->
+
+        <header class="header">
+
+            <div>
+                <h1>Employee Dashboard</h1>
+                <p>Manage your work activities</p>
+            </div>
+
+            <div class="user">
+                <div>
+                    <strong>Rohith B</strong>
+                    <small>Employee</small>
+                </div>
+
+                <div class="avatar">
+                    RB
+                </div>
+            </div>
+
+        </header>
+
+
+        <!-- Welcome -->
+
+        <section class="welcome">
+
+            <h2>Welcome back, Rohith! 👋</h2>
+
+            <p>
+                Here's what's happening with your work activities today.
+            </p>
+
+        </section>
+
+
+        <!-- Employee Cards -->
+
+        <section class="cards">
+
+            <div class="card">
+
+                <div class="card-icon">
+                    👤
+                </div>
+
+                <h3>Profile</h3>
+
+                <p>
+                    View and update your personal information.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">
+                    📅
+                </div>
+
+                <h3>Attendance</h3>
+
+                <p>
+                    View your attendance and working hours.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">
+                    📝
+                </div>
+
+                <h3>Leave Requests</h3>
+
+                <p>
+                    Apply for leave and track your requests.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">
+                    🚪
+                </div>
+
+                <h3>Logout</h3>
+
+                <p>
+                    Securely logout from your account.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Recent Activity -->
+
+        <section class="content">
+
+            <div class="panel">
+
+                <h2>Recent Activity</h2>
+
+                <div class="activity">
+
+                    <div class="activity-icon">
+                        ✓
+                    </div>
+
+                    <div>
+                        <strong>Attendance Marked</strong>
+                        <p>Today at 09:12 AM</p>
+                    </div>
+
+                </div>
+
+
+                <div class="activity">
+
+                    <div class="activity-icon">
+                        ✓
+                    </div>
+
+                    <div>
+                        <strong>Leave Request Approved</strong>
+                        <p>August 20, 2026</p>
+                    </div>
+
+                </div>
+
+
+                <div class="activity">
+
+                    <div class="activity-icon">
+                        📢
+                    </div>
+
+                    <div>
+                        <strong>New HR Announcement</strong>
+                        <p>New company policy has been published.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Alerts -->
+
+            <div class="panel">
+
+                <h2>Alerts 🔔</h2>
+
+                <div class="notification">
+                    <strong>Attendance</strong>
+                    <p>Please mark your attendance before 10 AM.</p>
+                </div>
+
+                <div class="notification">
+                    <strong>HR Notice</strong>
+                    <p>Monthly meeting scheduled for Monday.</p>
+                </div>
+
+            </div>
+
+        </section>
