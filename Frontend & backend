@@ -430,4 +430,192 @@
 
             </div>
 
+        <section class="profile-card">
+
+            <img
+                class="profile-image"
+                src="https://i.pravatar.cc/200?img=12"
+                alt="Employee"
+            >
+
+            <div class="profile-info">
+
+                <h2>Madhu Mithilesh</h2>
+
+                <p>Software Developer</p>
+
+                <p>Employee ID: EMP1024</p>
+
+                <p>Department: Information Technology</p>
+
+                <span class="status">
+                    ● Active Employee
+                </span>
+
+            </div>
+
         </section>
+
+
+        <!-- STATISTICS -->
+
+        <section class="dashboard-grid">
+
+            <div class="stat-card">
+
+                <h3>Joining Date</h3>
+
+                <h2>15 Jan 2024</h2>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3>Experience</h3>
+
+                <h2>2.5 Years</h2>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3>Leave Balance</h3>
+
+                <h2>18 Days</h2>
+
+            </div>
+
+        </section>
+
+
+        <!-- MAIN CONTENT GRID -->
+
+        <section class="content-grid">
+
+
+            <!-- LEFT SIDE -->
+
+            <div>
+
+                <!-- PERSONAL DETAILS -->
+
+                <div class="card">
+
+                    <h2>👤 Personal Details</h2>
+
+                    <div class="details">
+
+                        <div class="detail-box">
+                            <span>Full Name</span>
+                            <strong>Madhu Mithilesh</strong>
+                        </div>
+
+                        <div class="detail-box">
+                            <span>Employee ID</span>
+                            <strong>EMP1024</strong>
+                        </div>
+
+                        <div class="detail-box">
+                            <span>Email</span>
+                            <strong>madhu@example.com</strong>
+                        </div>
+
+                        <div class="detail-box">
+                            <span>Phone</span>
+                            <strong>+91 98765 43210</strong>
+                        </div>
+
+                        <div class="detail-box">
+                            <span>Date of Birth</span>
+                            <strong>17 October 2006</strong>
+                        </div>
+
+                        <div class="detail-box">
+                            <span>Location</span>
+                            <strong>Tamil Nadu, India</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <br>
+
+
+                <!-- JOB DETAILS -->
+
+                <div class="card">
+
+                    <h2>💼 Job Details</h2>
+
+                    <div class="details">
+
+                        <div class="detail-box">
+                            <span>Job Title</span>
+                            <strong>Software Developer</strong>
+                        </div>
+
+                        <div class="detail-box">
+                            <span>Department</span>
+                            <strong>Information Technology</strong>
+                        </div>
+
+                        <div class="detail-box">
+                            <span>Employment Type</span>
+                            <strong>Full Time</strong>
+                        </div>
+
+                        <div class="detail-box">
+                            <span>Manager</span>
+                            <strong>Arun Kumar</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT SIDE -->
+
+            <div>
+
+                <!-- SALARY -->
+
+                <div class="card">
+
+                    <h2>💰 Salary Structure</h2>
+
+                    <div class="salary-item">
+                        <span>Basic Salary</span>
+                        <strong>₹35,000</strong>
+                    </div>
+
+                    <div class="salary-item">
+                        <span>HRA</span>
+                        <strong>₹15,000</strong>
+                    </div>
+
+                    <div class="salary-item">
+                        <span>Allowance</span>
+                        <strong>₹8,000</strong>
+                    </div>
+
+                    <div class="salary-item">
+                        <span>Bonus</span>
+                        <strong>₹5,000</strong>
+                    </div>
+
+                    <div class="salary-item total">
+                        <span>Total</span>
+                        <strong>₹63,000</strong>
+                    </div>
+
+                </div>
+
+
+                <br>
+
+
