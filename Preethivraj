@@ -1,1 +1,16 @@
+CREATE DATABASE hrms;
 
+USE hrms;
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    employee_id VARCHAR(20) UNIQUE,
+    name VARCHAR(100),
+    email VARCHAR(100) UNIQUE,
+    password VARCHAR(255),
+    role ENUM('ADMIN','EMPLOYEE') DEFAULT 'EMPLOYEE',
+    isVerified BOOLEAN DEFAULT FALSE,
+    verificationToken VARCHAR(255),
+    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+#Here i have created the database for storing the details of the users 
