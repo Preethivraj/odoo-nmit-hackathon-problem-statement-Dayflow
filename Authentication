@@ -466,6 +466,21 @@
 </body>
 </html>
 
+//adding more colors
+
+body{
+  background:linear-gradient(135deg,#8B4513,#D2B48C); /* brown tones */
+}
+
+.auth-container button{
+  background:linear-gradient(45deg,#8B4513,#A0522D); /* brown shades */
+}
+
+.auth-container button:hover{
+  background:linear-gradient(45deg,#5C3317,#7B3F00);
+}
+
+
 
 
      
