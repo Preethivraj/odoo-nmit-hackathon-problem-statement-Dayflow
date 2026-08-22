@@ -13,4 +13,4 @@ CREATE TABLE users (
     verificationToken VARCHAR(255),
     createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-#Here i have created the database for storing the details of the users 
+//Here i have created the database for storing the details of the users 
