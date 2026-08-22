@@ -18,8 +18,6 @@
             color: #1f2937;
         }
 
-        /* ================= SIDEBAR ================= */
-
         .sidebar {
             position: fixed;
             width: 240px;
@@ -55,14 +53,11 @@
             transform: translateX(5px);
         }
 
-        /* ================= MAIN ================= */
 
         .main {
             margin-left: 240px;
             padding: 30px;
         }
-
-        /* ================= TOP BAR ================= */
 
         .topbar {
             display: flex;
@@ -89,7 +84,6 @@
             border: 3px solid #2563eb;
         }
 
-        /* ================= PROFILE CARD ================= */
 
         .profile-card {
             background: white;
@@ -137,7 +131,6 @@
             margin-top: 8px;
         }
 
-        /* ================= GRID ================= */
 
         .dashboard-grid {
             display: grid;
@@ -170,7 +163,6 @@
             color: #2563eb;
         }
 
-        /* ================= CONTENT ================= */
 
         .content-grid {
             display: grid;
@@ -192,7 +184,6 @@
             color: #172554;
         }
 
-        /* ================= DETAILS ================= */
 
         .details {
             display: grid;
@@ -223,7 +214,6 @@
             font-size: 15px;
         }
 
-        /* ================= DOCUMENTS ================= */
 
         .document {
             display: flex;
@@ -267,3 +257,119 @@
             background: #1d4ed8;
             transform: scale(1.05);
         }
+
+//adding salary details
+
+.salary-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .salary-item:last-child {
+            border-bottom: none;
+        }
+
+        .total {
+            font-weight: bold;
+            color: #2563eb;
+            font-size: 18px;
+        }
+
+
+        @keyframes slideLeft {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes scaleIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+
+        @media (max-width: 1000px) {
+
+            .sidebar {
+                width: 200px;
+            }
+
+            .main {
+                margin-left: 200px;
+            }
+
+            .dashboard-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 700px) {
+
+            .sidebar {
+                position: relative;
+                width: 100%;
+                height: auto;
+            }
+
+            .main {
+                margin-left: 0;
+                padding: 15px;
+            }
+
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .details {
+                grid-template-columns: 1fr;
+            }
+
+            .profile-card {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .topbar {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+        }
+    </style>
