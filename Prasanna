@@ -21,8 +21,6 @@
             color: #1e293b;
         }
 
-        /* ================= SIDEBAR ================= */
-
         .sidebar {
             position: fixed;
             left: 0;
@@ -62,14 +60,11 @@
             transform: translateX(6px);
         }
 
-        /* ================= MAIN ================= */
-
         .main {
             margin-left: 240px;
             padding: 25px;
         }
 
-        /* ================= HEADER ================= */
 
         .header {
             background: white;
@@ -108,8 +103,6 @@
             align-items: center;
             font-weight: bold;
         }
-
-        /* ================= PROFILE HEADER ================= */
 
         .profile-header {
             margin-top: 25px;
