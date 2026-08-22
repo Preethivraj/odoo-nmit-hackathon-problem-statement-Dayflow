@@ -373,3 +373,61 @@
             }
         }
     </style>
+<!-- PROFILE -->
+
+        <section class="profile-card">
+
+            <img
+                class="profile-image"
+                src="https://i.pravatar.cc/200?img=12"
+                alt="Employee"
+            >
+
+            <div class="profile-info">
+
+                <h2>Madhu Mithilesh</h2>
+
+                <p>Software Developer</p>
+
+                <p>Employee ID: EMP1024</p>
+
+                <p>Department: Information Technology</p>
+
+                <span class="status">
+                    ● Active Employee
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- STATISTICS -->
+
+        <section class="dashboard-grid">
+
+            <div class="stat-card">
+
+                <h3>Joining Date</h3>
+
+                <h2>15 Jan 2024</h2>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3>Experience</h3>
+
+                <h2>2.5 Years</h2>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3>Leave Balance</h3>
+
+                <h2>18 Days</h2>
+
+            </div>
+
+        </section>
